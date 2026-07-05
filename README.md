@@ -14,17 +14,18 @@ open index.html
 # On Windows / Linux
 start index.html
 Use code with caution.
-📂 Project Structuretext├── index.html          
-# Main HTML structure of the landing page
+📂 Project Structuretext
+
+├── index.html          # Main HTML structure of the landing page
+
 ├── css/
+
 │   └── styles.css      # Core styles, gradients, and typography
-├── js/
-│   └── main.js         # Navigation animations and interactive elements
-├── assets/
-│   ├── resume.pdf      # Downloadable resume file
-│   └── images/         # Project screenshots and icons
+
 └── README.md           # Project documentation
-Use code with caution.
+
 🤝 Contact & ConnectDeveloper: Kamatchi
+
 GitHub: kamatchi712
+
 LinkedIn: www.linkedin.com/in/kamatchi-d-856896328
