@@ -1,4 +1,12 @@
-🌐 Personal Portfolio WebsiteA clean, modern, and minimalist responsive portfolio website designed to showcase my software development projects, professional experience, and skills.✨ FeaturesMinimalist Landing Page: Catchy hero section introducing my core focus.Smooth Navigation: Clean top navigation bar to browse different sections seamlessly.Responsive Layout: Fully optimized for mobile, tablet, and desktop screens.Actionable CTAs: Interactive buttons for downloading my resume and initiating direct client contact.🛠️ Tech StackFrontend: HTML5, CSS3, JavaScriptStyling: Modern CSS (Flexbox/Grid) with custom linear gradientsDeployment: GitHub Pages / Vercel🚀 Getting StartedFollow these steps to run a local copy of this portfolio on your machine.PrerequisitesYou only need a web browser installed on your computer.InstallationClone the repository to your local machine:bashgit clone https://github.com
+🌐 Personal Portfolio WebsiteA clean, modern, and minimalist responsive portfolio website designed to showcase my software development projects, professional experience, and skills.
+
+✨ FeaturesMinimalist Landing Page: Catchy hero section introducing my core focus.Smooth Navigation: Clean top navigation bar to browse different sections seamlessly.
+Responsive Layout: Fully optimized for mobile, tablet, and desktop screens.Actionable CTAs: Interactive buttons for downloading my resume and initiating direct client contact.
+
+🛠️ Tech StackFrontend: HTML5, CSS3, JavaScriptStyling: Modern CSS (Flexbox/Grid) with custom linear gradientsDeployment: GitHub Pages / Vercel
+
+🚀 Getting StartedFollow these steps to run a local copy of this portfolio on your machine.PrerequisitesYou only need a web browser installed on your computer.
+InstallationClone the repository to your local machine:bashgit clone https://github.com
 Use code with caution.Navigate into the project folder:bashcd your-repo-name
 Use code with caution.Open the main file in your preferred web browser:bash# On macOS
 open index.html
