@@ -1,0 +1,226 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ffffff;
+    position:sticky;
+    top:0;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    z-index:100;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 15px;
+    color:#333;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+/* Buttons */
+
+.buttons button{
+    padding:10px 20px;
+    margin-left:10px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.buttons button:first-child{
+    background:#2563eb;
+    color:white;
+}
+
+.buttons button:last-child{
+    background:white;
+    border:2px solid #2563eb;
+    color:#2563eb;
+}
+
+.buttons button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 15px rgba(37,99,235,.3);
+}
+
+/* Hero */
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+    color:white;
+}
+
+.hero h1{
+    font-size:65px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    opacity:.9;
+}
+
+/* Sections */
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    font-size:36px;
+    color:#2563eb;
+    margin-bottom:50px;
+}
+
+/* About */
+
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.text{
+    flex:1;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.about img{
+    width:280px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* Experience */
+
+.experience{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.experience h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.experience ul{
+    margin-top:15px;
+    margin-left:20px;
+}
+
+/* Projects */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    font-size:18px;
+    margin:10px 0;
+}
+
+/* Footer */
+
+footer{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.about{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+}
